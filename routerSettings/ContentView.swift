@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct MainView: View {
+struct ContentView: View {
     let routers = [
         Router(name: "Router Model 1", tutorialYouTubeLink: "https://youtu.be/exampleLink1"),
         Router(name: "Router Model 2", tutorialYouTubeLink: "https://youtu.be/exampleLink2")
@@ -27,5 +27,5 @@ struct MainView: View {
 
 
 #Preview {
-    MainView()
+    ContentView()
 }
