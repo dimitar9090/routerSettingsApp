@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D1680B0F2B7C157600647A1A /* routerSettingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1680B0E2B7C157600647A1A /* routerSettingsApp.swift */; };
-		D1680B112B7C157600647A1A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1680B102B7C157600647A1A /* ContentView.swift */; };
+		D1680B112B7C157600647A1A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1680B102B7C157600647A1A /* MainView.swift */; };
 		D1680B132B7C157800647A1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1680B122B7C157800647A1A /* Assets.xcassets */; };
 		D1680B162B7C157800647A1A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1680B152B7C157800647A1A /* Preview Assets.xcassets */; };
 		D1680B1D2B7C193C00647A1A /* routerSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1680B1C2B7C193C00647A1A /* routerSettings.swift */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		D1680B0B2B7C157600647A1A /* routerSettings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = routerSettings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1680B0E2B7C157600647A1A /* routerSettingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = routerSettingsApp.swift; sourceTree = "<group>"; };
-		D1680B102B7C157600647A1A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D1680B102B7C157600647A1A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		D1680B122B7C157800647A1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1680B152B7C157800647A1A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D1680B1C2B7C193C00647A1A /* routerSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = routerSettings.swift; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 				D1680B0E2B7C157600647A1A /* routerSettingsApp.swift */,
 				D1680B1E2B7C199700647A1A /* RouterDetailView.swift */,
 				D1680B1C2B7C193C00647A1A /* routerSettings.swift */,
-				D1680B102B7C157600647A1A /* ContentView.swift */,
+				D1680B102B7C157600647A1A /* MainView.swift */,
 				D1680B122B7C157800647A1A /* Assets.xcassets */,
 				D1680B142B7C157800647A1A /* Preview Content */,
 			);
@@ -145,7 +145,7 @@
 			files = (
 				D1680B1F2B7C199700647A1A /* RouterDetailView.swift in Sources */,
 				D1680B1D2B7C193C00647A1A /* routerSettings.swift in Sources */,
-				D1680B112B7C157600647A1A /* ContentView.swift in Sources */,
+				D1680B112B7C157600647A1A /* MainView.swift in Sources */,
 				D1680B0F2B7C157600647A1A /* routerSettingsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
