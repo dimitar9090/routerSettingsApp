@@ -10,7 +10,8 @@ import SwiftUI
 struct MainView: View {
     let routers = [
         Router(name: "Ruijie  RG-EW1200G PRO", tutorialYouTubeLink: "https://youtu.be/XH5fdCTmQU8"),
-        Router(name: "Tenda AC5 AC1200", tutorialYouTubeLink: "https://youtu.be/eGPME-raBU4")
+        Router(name: "Tenda AC5 AC1200", tutorialYouTubeLink: "https://youtu.be/eGPME-raBU4"),
+        Router(name: "Mercusys MW305R", tutorialYouTubeLink: "https://youtu.be/iyobEgfG2LE")
     ]
 
     @State private var searchText = ""
