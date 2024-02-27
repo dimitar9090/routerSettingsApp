@@ -11,5 +11,7 @@ struct Router: Identifiable {
     var id = UUID()
     var name: String
     var tutorialYouTubeLink: String
+    var image: String
 }
+
 
