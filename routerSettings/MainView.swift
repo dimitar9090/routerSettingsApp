@@ -16,7 +16,8 @@ struct MainView: View {
         Router(name: "Cudy WR3000", tutorialYouTubeLink: "https://youtu.be/X85fAv070KU", image: "cudywr3000"),
         Router(name: "Tp-link C80", tutorialYouTubeLink: "https://youtu.be/jUDpgfuv0_8", image: "tp-linkc80"),
         Router(name: "Tp-link C60", tutorialYouTubeLink: "https://youtu.be/1KcwsOCbI3E", image: "tp-linkc60"),
-        Router(name: "Tenda AC6", tutorialYouTubeLink: "https://youtu.be/cEhdW0tdEpw", image: "Tendaac6")
+        Router(name: "Tenda AC6", tutorialYouTubeLink: "https://youtu.be/cEhdW0tdEpw", image: "Tendaac6"),
+        Router(name: "Tenda AC10", tutorialYouTubeLink: "https://youtu.be/z_1MpOG7BJE", image: "tendaac10")
     ]
 
     @State private var searchText = ""
