@@ -10,12 +10,13 @@ import SwiftUI
 struct MainView: View {
     let routers = [
         Router(name: "Ruijie RG-EW1200G PRO", tutorialYouTubeLink: "https://youtu.be/XH5fdCTmQU8", image: "Ruijie RG-EW1200G PRO"),
-        Router(name: "Tenda AC5 AC1200", tutorialYouTubeLink: "https://youtu.be/eGPME-raBU4", image: "tendaac5"),
+        Router(name: "Tenda AC5", tutorialYouTubeLink: "https://youtu.be/eGPME-raBU4", image: "tendaac5"),
         Router(name: "Mercusys MW305R", tutorialYouTubeLink: "https://youtu.be/iyobEgfG2LE", image: "Mercusys MW305R"),
         Router(name: "Tp-link WR840N", tutorialYouTubeLink: "https://youtu.be/jQbcM67CQ7g", image: "tp-linkwr840n"),
         Router(name: "Cudy WR3000", tutorialYouTubeLink: "https://youtu.be/X85fAv070KU", image: "cudywr3000"),
         Router(name: "Tp-link C80", tutorialYouTubeLink: "https://youtu.be/jUDpgfuv0_8", image: "tp-linkc80"),
-        Router(name: "Tp-link C60", tutorialYouTubeLink: "https://youtu.be/1KcwsOCbI3E", image: "tp-linkc60")
+        Router(name: "Tp-link C60", tutorialYouTubeLink: "https://youtu.be/1KcwsOCbI3E", image: "tp-linkc60"),
+        Router(name: "Tenda AC6", tutorialYouTubeLink: "https://youtu.be/cEhdW0tdEpw", image: "tendaac6")
     ]
 
     @State private var searchText = ""
