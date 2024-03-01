@@ -3,7 +3,7 @@ import SwiftUI
 struct RouterDetailView: View {
     var router: Router
 
-    let backgroundGradient = LinearGradient(gradient: Gradient(colors: [Color.purple, Color.blue]), startPoint: .topLeading, endPoint: .bottomTrailing)
+    let backgroundGradient = LinearGradient(gradient: Gradient(colors: [Color.orange, Color.purple]), startPoint: .topLeading, endPoint: .bottomLeading)
 
     var body: some View {
         // Start with the ScrollView to manage content

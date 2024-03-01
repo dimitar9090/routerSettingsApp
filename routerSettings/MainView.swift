@@ -9,7 +9,7 @@ import SwiftUI
 
 struct MainView: View {
     let routers = [
-        Router(name: "Ruijie RG-EW1200G PRO", tutorialYouTubeLink: "https://youtu.be/XH5fdCTmQU8", image: "Ruijie RG-EW1200G PRO"),
+        Router(name: "Ruijie RG-EW1200G PRO", tutorialYouTubeLink: "https://youtu.be/XH5fdCTmQU8", image: "Ruijie  RG-EW1200G PRO"),
         Router(name: "Tenda AC5", tutorialYouTubeLink: "https://youtu.be/eGPME-raBU4", image: "tendaac5"),
         Router(name: "Mercusys MW305R", tutorialYouTubeLink: "https://youtu.be/iyobEgfG2LE", image: "Mercusys MW305R"),
         Router(name: "Tp-link WR840N", tutorialYouTubeLink: "https://youtu.be/jQbcM67CQ7g", image: "tp-linkwr840n"),
@@ -19,6 +19,8 @@ struct MainView: View {
         Router(name: "Tenda AC6", tutorialYouTubeLink: "https://youtu.be/cEhdW0tdEpw", image: "Tendaac6"),
         Router(name: "Tenda AC10", tutorialYouTubeLink: "https://youtu.be/z_1MpOG7BJE", image: "tendaac10")
     ]
+
+    let backgroundGradientMain = LinearGradient(gradient: Gradient(colors: [Color.orange, Color.pink]), startPoint: .leading, endPoint: .trailing)
 
     @State private var searchText = ""
 
@@ -42,12 +44,12 @@ struct MainView: View {
                         .shadow(color: .gray.opacity(0.3), radius: 3, x: 0, y: 2) // Shadow for depth
                         .padding(.vertical, 4) // Spacing between items
                 }
-                .listRowBackground(Color.orange) // Use this to set the background color for the entire row
+                .listRowBackground(backgroundGradientMain) // Use this to set the background color for the entire row
                 .listRowInsets(EdgeInsets()) // Adjust or remove to match your design
             }
             .navigationTitle("Routers")
             .searchable(text: $searchText)
-            .background(Color.orange) // Background color for the list/container
+            .background(backgroundGradientMain) // Background color for the list/container
             .listStyle(PlainListStyle()) // Style of the list
         }
     }
