@@ -18,7 +18,8 @@ struct MainView: View {
         Router(name: "Tp-link C60", tutorialYouTubeLink: "https://youtu.be/1KcwsOCbI3E", image: "tp-linkc60"),
         Router(name: "Tenda AC6", tutorialYouTubeLink: "https://youtu.be/cEhdW0tdEpw", image: "Tendaac6"),
         Router(name: "Tenda AC10", tutorialYouTubeLink: "https://youtu.be/z_1MpOG7BJE", image: "tendaac10"),
-        Router(name: "Tp-link Archer C64", tutorialYouTubeLink: "https://youtu.be/Fb66skQXeo4", image: "tplinkarcherc64")
+        Router(name: "Tp-link Archer C64", tutorialYouTubeLink: "https://youtu.be/Fb66skQXeo4", image: "tplinkarcherc64"),
+        Router(name: "Tenda W311R", tutorialYouTubeLink: "https://youtu.be/qe9dTVNAsBo", image: "tendaw311r")
     ]
 
     let backgroundGradientMain = LinearGradient(gradient: Gradient(colors: [Color.orange, Color.pink]), startPoint: .leading, endPoint: .trailing)
