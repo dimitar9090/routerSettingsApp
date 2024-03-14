@@ -54,8 +54,10 @@ struct MainView: View {
             .background(backgroundGradientMain) // Background color for the list/container
             .listStyle(PlainListStyle()) // Style of the list
         }
+       
+            }
     }
-}
+
 
 
 #Preview {
