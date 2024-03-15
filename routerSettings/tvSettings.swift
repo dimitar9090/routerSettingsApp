@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+struct Tv: Identifiable {
+    var id = UUID()
+    var name: String
+    var tutorialYouTubeLink: String
+    var image: String
+}

@@ -1,13 +1,13 @@
 //
-//  TvView.swift
+//  ContentView.swift
 //  routerSettings
 //
-//  Created by Dimitar Angelov on 14.03.24.
+//  Created by Dimitar Angelov on 13.02.24.
 //
 
 import SwiftUI
 
-struct TvView: View {
+struct RoutersView: View {
     let routers = [
         Router(name: "Ruijie RG-EW1200G PRO", tutorialYouTubeLink: "https://youtu.be/XH5fdCTmQU8", image: "Ruijie  RG-EW1200G PRO"),
         Router(name: "Tenda AC5", tutorialYouTubeLink: "https://youtu.be/eGPME-raBU4", image: "tendaac5"),
@@ -49,7 +49,7 @@ struct TvView: View {
                 .listRowBackground(backgroundGradientMain) // Use this to set the background color for the entire row
                 .listRowInsets(EdgeInsets()) // Adjust or remove to match your design
             }
-            .navigationTitle("TVs")
+            .navigationTitle("Routers")
             .searchable(text: $searchText)
             .background(backgroundGradientMain) // Background color for the list/container
             .listStyle(PlainListStyle()) // Style of the list
@@ -58,6 +58,8 @@ struct TvView: View {
             }
     }
 
+
+
 #Preview {
-    TvView()
+    RoutersView()
 }
