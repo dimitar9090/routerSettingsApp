@@ -8,35 +8,36 @@
 import SwiftUI
 
 struct TvView: View {
-    let routers = [
-        Router(name: "Ruijie RG-EW1200G PRO", tutorialYouTubeLink: "https://youtu.be/XH5fdCTmQU8", image: "Ruijie  RG-EW1200G PRO"),
-        Router(name: "Tenda AC5", tutorialYouTubeLink: "https://youtu.be/eGPME-raBU4", image: "tendaac5"),
-        Router(name: "Mercusys MW305R", tutorialYouTubeLink: "https://youtu.be/iyobEgfG2LE", image: "Mercusys MW305R"),
-        Router(name: "Tp-link WR840N", tutorialYouTubeLink: "https://youtu.be/jQbcM67CQ7g", image: "tp-linkwr840n"),
-        Router(name: "Cudy WR3000", tutorialYouTubeLink: "https://youtu.be/X85fAv070KU", image: "cudywr3000"),
-        Router(name: "Tp-link C80", tutorialYouTubeLink: "https://youtu.be/jUDpgfuv0_8", image: "tp-linkc80"),
-        Router(name: "Tp-link C60", tutorialYouTubeLink: "https://youtu.be/1KcwsOCbI3E", image: "tp-linkc60"),
-        Router(name: "Tenda AC6", tutorialYouTubeLink: "https://youtu.be/cEhdW0tdEpw", image: "Tendaac6"),
-        Router(name: "Tenda AC10", tutorialYouTubeLink: "https://youtu.be/z_1MpOG7BJE", image: "tendaac10"),
-        Router(name: "Tp-link Archer C64", tutorialYouTubeLink: "https://youtu.be/Fb66skQXeo4", image: "tplinkarcherc64"),
-        Router(name: "Tenda W311R", tutorialYouTubeLink: "https://youtu.be/qe9dTVNAsBo", image: "tendaw311r")
+    let tvs = [
+        
+        Tv(name: "NEO LED-40F1FHD", tutorialYouTubeLink:"https://youtu.be/-GDECa7YxNo", image: "neoled40f1fhd"),
+        Tv(name: "NEO LED-2212VFDD", tutorialYouTubeLink:"https://youtu.be/hnw3HKHRrjU", image: "neoled2212vfhd"),
+        Tv(name: "Samsung UE40KU6472UXXH", tutorialYouTubeLink:"https://youtu.be/e1gr09uy2YM", image: "samsungue40ku6472uxxh"),
+        Tv(name: "PHILIPS 37PFL5405H/12", tutorialYouTubeLink:"https://youtu.be/faiI3MfQIWI", image: "philips37pfl5405h/12"),
+        Tv(name: "HITACHI 24HB4T05", tutorialYouTubeLink:"https://youtu.be/s8421GJ4Qzk", image: "HITACHI24HB4T05"),
+        Tv(name: "PHILIPS 32PHS4032/12", tutorialYouTubeLink:"https://youtu.be/jLVcmihOs5kk", image: "philips32phs403212"),
+        Tv(name: "PHILIPS 55PU56401/12", tutorialYouTubeLink:"https://youtu.be/47p3A18U5RY", image: "PHILIPS55PU5640112"),
+        Tv(name: "TESLA 43T319BF", tutorialYouTubeLink:"https://youtu.be/yxypOXP-rVc", image: "Tesla43t319bf"),
+        Tv(name: "KIVI 40F750NB", tutorialYouTubeLink:"https://youtube.com/shorts/BCItqHJfyDM", image: "kivi40f750nb"),
+        Tv(name: "FINLUX 43FFB4561", tutorialYouTubeLink:"https://youtu.be/t6W_33Hv_AA", image: "finlux43ffb4561"),
+        Tv(name: "TELEFUNKEN 24HB4701", tutorialYouTubeLink:"https://youtu.be/t6W_33Hv_AA", image: "telefunken24hb4701")
     ]
 
     let backgroundGradientMain = LinearGradient(gradient: Gradient(colors: [Color.orange, Color.pink]), startPoint: .leading, endPoint: .trailing)
 
     @State private var searchText = ""
 
-    var sortedRouters: [Router] {
-        routers.sorted { $0.name < $1.name }
+    var sortedTvs: [Tv] {
+        tvs.sorted { $0.name < $1.name }
     }
 
     var body: some View {
         NavigationView {
-            List(sortedRouters.filter { router in
-                searchText.isEmpty || router.name.localizedCaseInsensitiveContains(searchText)
-            }) { router in
-                NavigationLink(destination: RouterDetailView(router: router)) {
-                    Text(router.name)
+            List(sortedTvs.filter { tv in
+                searchText.isEmpty || tv.name.localizedCaseInsensitiveContains(searchText)
+            }) { tv in
+                NavigationLink(destination: TvDetailView(tv: tv)) {
+                    Text(tv.name)
                         .fontWeight(.medium)
                         .foregroundColor(.black) // Text color
                         .padding() // Padding for the text

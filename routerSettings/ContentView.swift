@@ -12,7 +12,7 @@ struct ContentView: View {
         TabView{
             MainView()
                 .tabItem {
-                    Label("Routers", systemImage: "network")
+                    Label("Routers", systemImage: "wifi.router")
                 }
             TvView()
                 .tabItem{

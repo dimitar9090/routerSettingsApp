@@ -16,6 +16,7 @@
 		D1680B1F2B7C199700647A1A /* RouterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1680B1E2B7C199700647A1A /* RouterDetailView.swift */; };
 		D16CF7692BA39B3900F93EE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16CF7682BA39B3900F93EE4 /* ContentView.swift */; };
 		D16CF76B2BA39D7A00F93EE4 /* TvView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16CF76A2BA39D7A00F93EE4 /* TvView.swift */; };
+		D189F40C2BA6523C0076535B /* TvDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D189F40B2BA6523C0076535B /* TvDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		D1680B1E2B7C199700647A1A /* RouterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterDetailView.swift; sourceTree = "<group>"; };
 		D16CF7682BA39B3900F93EE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D16CF76A2BA39D7A00F93EE4 /* TvView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvView.swift; sourceTree = "<group>"; };
+		D189F40B2BA6523C0076535B /* TvDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			children = (
 				D1680B0E2B7C157600647A1A /* routerSettingsApp.swift */,
 				D1680B1E2B7C199700647A1A /* RouterDetailView.swift */,
+				D189F40B2BA6523C0076535B /* TvDetailView.swift */,
 				D1680B1C2B7C193C00647A1A /* routerSettings.swift */,
 				D15957882BA4F23D00EDB7BD /* tvSettings.swift */,
 				D16CF7682BA39B3900F93EE4 /* ContentView.swift */,
@@ -157,6 +160,7 @@
 				D16CF7692BA39B3900F93EE4 /* ContentView.swift in Sources */,
 				D1680B1D2B7C193C00647A1A /* routerSettings.swift in Sources */,
 				D1680B112B7C157600647A1A /* MainView.swift in Sources */,
+				D189F40C2BA6523C0076535B /* TvDetailView.swift in Sources */,
 				D16CF76B2BA39D7A00F93EE4 /* TvView.swift in Sources */,
 				D1680B0F2B7C157600647A1A /* routerSettingsApp.swift in Sources */,
 			);

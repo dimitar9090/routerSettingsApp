@@ -12,14 +12,16 @@ struct MainView: View {
         Router(name: "Ruijie RG-EW1200G PRO", tutorialYouTubeLink: "https://youtu.be/XH5fdCTmQU8", image: "Ruijie  RG-EW1200G PRO"),
         Router(name: "Tenda AC5", tutorialYouTubeLink: "https://youtu.be/eGPME-raBU4", image: "tendaac5"),
         Router(name: "Mercusys MW305R", tutorialYouTubeLink: "https://youtu.be/iyobEgfG2LE", image: "Mercusys MW305R"),
-        Router(name: "Tp-link WR840N", tutorialYouTubeLink: "https://youtu.be/jQbcM67CQ7g", image: "tp-linkwr840n"),
+        Router(name: "Tp-Link WR840N", tutorialYouTubeLink: "https://youtu.be/jQbcM67CQ7g", image: "tp-linkwr840n"),
         Router(name: "Cudy WR3000", tutorialYouTubeLink: "https://youtu.be/X85fAv070KU", image: "cudywr3000"),
-        Router(name: "Tp-link C80", tutorialYouTubeLink: "https://youtu.be/jUDpgfuv0_8", image: "tp-linkc80"),
-        Router(name: "Tp-link C60", tutorialYouTubeLink: "https://youtu.be/1KcwsOCbI3E", image: "tp-linkc60"),
+        Router(name: "Tp-Link C80", tutorialYouTubeLink: "https://youtu.be/jUDpgfuv0_8", image: "tp-linkc80"),
+        Router(name: "Tp-Link C60", tutorialYouTubeLink: "https://youtu.be/1KcwsOCbI3E", image: "tp-linkc60"),
         Router(name: "Tenda AC6", tutorialYouTubeLink: "https://youtu.be/cEhdW0tdEpw", image: "Tendaac6"),
         Router(name: "Tenda AC10", tutorialYouTubeLink: "https://youtu.be/z_1MpOG7BJE", image: "tendaac10"),
-        Router(name: "Tp-link Archer C64", tutorialYouTubeLink: "https://youtu.be/Fb66skQXeo4", image: "tplinkarcherc64"),
-        Router(name: "Tenda W311R", tutorialYouTubeLink: "https://youtu.be/qe9dTVNAsBo", image: "tendaw311r")
+        Router(name: "Tp-Link Archer C64", tutorialYouTubeLink: "https://youtu.be/Fb66skQXeo4", image: "tplinkarcherc64"),
+        Router(name: "Tenda W311R", tutorialYouTubeLink: "https://youtu.be/qe9dTVNAsBo", image: "tendaw311r"),
+        Router(name: "Tp-Link WR844R", tutorialYouTubeLink: "https://youtu.be/CV6ArNk-JHM", image: "tplinkwr844n"),
+        Router(name: "Tp-Link Deco E4", tutorialYouTubeLink: "https://youtu.be/KH3P60mgC0U", image: "tplinkwr844n")
     ]
 
     let backgroundGradientMain = LinearGradient(gradient: Gradient(colors: [Color.orange, Color.pink]), startPoint: .leading, endPoint: .trailing)
