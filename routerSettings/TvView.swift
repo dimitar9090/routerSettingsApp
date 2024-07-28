@@ -20,7 +20,8 @@ struct TvView: View {
         Tv(name: "TESLA 43T319BF", tutorialYouTubeLink:"https://youtu.be/yxypOXP-rVc", image: "Tesla43t319bf"),
         Tv(name: "KIVI 40F750NB", tutorialYouTubeLink:"https://youtube.com/shorts/BCItqHJfyDM", image: "kivi40f750nb"),
         Tv(name: "FINLUX 43FFB4561", tutorialYouTubeLink:"https://youtu.be/t6W_33Hv_AA", image: "finlux43ffb4561"),
-        Tv(name: "TELEFUNKEN 24HB4701", tutorialYouTubeLink:"https://youtu.be/t6W_33Hv_AA", image: "telefunken24hb4701")
+        Tv(name: "TELEFUNKEN 24HB4701", tutorialYouTubeLink:"https://youtu.be/t6W_33Hv_AA", image: "telefunken24hb4701"),
+        Tv(name: "CROWN 32MB01F", tutorialYouTubeLink:"https://youtu.be/qP8bFkIa6Uk", image: "crown32mb01f")
     ]
 
     let backgroundGradientMain = LinearGradient(gradient: Gradient(colors: [Color.orange, Color.pink]), startPoint: .leading, endPoint: .trailing)
